@@ -14,7 +14,6 @@ def main():
         if e1_ids[0] <= e2_ids[0] <= e1_ids[1] or e1_ids[0] <= e2_ids[1] <= e1_ids[1]: p2 += 1
         elif e2_ids[0] <= e1_ids[0] <= e2_ids[1] or e2_ids[0] <= e1_ids[1] <= e2_ids[1]: p2 += 1
 
-
     print('Part 1 = ' + str(p1))
     print('Part 2 = ' + str(p2))
 

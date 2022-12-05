@@ -3,13 +3,14 @@ input_file_name = 'day1_input.txt'
 
 def main():
     file = open(input_file_name).read().splitlines()
+
     elf_calories = []
     cum_cal = 0
     for line in file:
         if line == '':
             elf_calories.append(cum_cal)
             cum_cal = 0
-        else :
+        else:
             cum_cal += int(line)
 
     p1 = max(elf_calories)
